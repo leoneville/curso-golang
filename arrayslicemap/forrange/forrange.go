@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	numeros := [...]int{1, 2, 3, 4, 5} // compilador conta!
+	numeros := [...]int{1, 2, 3, 4, 5} // array que o proprio compilador conta!
 
 	for i, numero := range numeros {
 		fmt.Printf("%d) %d\n", i, numero)
