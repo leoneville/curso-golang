@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	db, err := connection.Conn("mysql", "root:123@123@/cursogo")
+	db, err := connection.Conn()
 	if err != nil {
 		log.Fatal(err)
 	}
