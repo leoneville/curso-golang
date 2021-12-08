@@ -2,4 +2,7 @@ module github.com/leoneville/cursogolang
 
 go 1.17
 
-require github.com/leoneville/goarea v0.0.0-20211207012150-3e69132e65ba
+require (
+	github.com/go-sql-driver/mysql v1.6.0
+	github.com/leoneville/goarea v0.0.0-20211207012150-3e69132e65ba
+)
